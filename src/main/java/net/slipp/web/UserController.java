@@ -28,10 +28,6 @@ public class UserController {
 	@GetMapping("/index")
 	public String index(Model model) { // view로 전달하기위해 model을 씀
 	return "index";
-	}
-	
-	@GetMapping("/form")
-	public String form(Model model) { // view로 전달하기위해 model을 씀
-	return "form";
-	}
+	}	
+
 }
